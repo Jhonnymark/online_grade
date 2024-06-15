@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>Grades</h1>
-    <a href="<?php echo site_url('grades/create'); ?>">Add Grade</a>
+    <a href="<?php echo site_url('grades/add'); ?>">Add Grade</a>
     <ul>
         <?php foreach ($grades as $grade): ?>
             <li>
